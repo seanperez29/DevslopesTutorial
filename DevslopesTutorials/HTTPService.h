@@ -11,5 +11,6 @@
 @interface HTTPService : NSObject
 
 + (id) instance;
+-(void) getTutorials;
 
 @end
